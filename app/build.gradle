@@ -13,7 +13,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        buildConfigField "String", "API_KEY", "\"api-key-here\""
+        buildConfigField "String", "API_KEY", "\"xF_3QfHQWeOC1sgL9taULEkKy9zpkVT51ICLiLctM4FT6-Sl_JUPOB5wm5ud-FR0nTqAoyVFDvEL5ifs_H1c4cUu0ALQKIxGzAHy6ZXvukfIZIJzC81SXzSy73J8YXYx\""
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
