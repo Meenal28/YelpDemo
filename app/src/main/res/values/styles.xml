@@ -1,0 +1,45 @@
+<resources>
+
+    <style name="BaseTextStyleRegularFont">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/colorBlackishGrey</item>
+    </style>
+
+
+    <style name="TitleTextStyle" parent="BaseTextStyleRegularFont">
+        <item name="android:textColor">@color/purple_700</item>
+        <item name="android:layout_marginTop">@dimen/margin_10</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">@dimen/margin_10</item>
+    </style>
+
+    <style name="SubTitleTextStyle" parent="TitleTextStyle">
+        <item name="android:layout_marginTop">@dimen/margin_5</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="InputTextStyle" parent="BaseTextStyleRegularFont">
+        <item name="android:layout_margin">@dimen/margin_10</item>
+        <item name="android:layout_marginLeft">@dimen/margin_30</item>
+        <item name="android:layout_marginRight">@dimen/margin_30</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="DetailSubTitleTextStyle" parent="BaseTextStyleRegularFont">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">@dimen/margin_10</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:layout_marginLeft">@dimen/margin_10</item>
+    </style>
+
+</resources>

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Yelp Sample</string>
+    <string name="text_label">Get Businesses List as per search Items</string>
+    <string name="hint_search_item">Search Item e.g. "food" or "restaurants"</string>
+    <string name="hint_location">Location e.g. "City" or "Neighbourhood"<font color='#FF0000'>*</font></string>
+    <string name="text_search">Search</string>
+    <string name="error_message_location">Please enter valid location</string>
+    <string name="dialogTitle">Error</string>
+    <string name="text_no_data_found">No Data Found</string>
+    <string name="text_no_data_message">Either Some connection Issue or no details found.\nPlease try again</string>
+    <string name="text_retry">Retry</string>
+    <string name="text_malformed_data">Data is Malformed.Please try later!!</string>
 </resources>

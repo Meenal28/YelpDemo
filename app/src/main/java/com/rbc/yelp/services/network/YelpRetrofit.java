@@ -1,4 +1,4 @@
-package com.rbc.yelp.services;
+package com.rbc.yelp.services.network;
 
 import androidx.annotation.NonNull;
 
